@@ -1,0 +1,270 @@
+.no-padding-left{
+    padding-left: 15px !important;
+}
+
+.A-banner-frame{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    top: 70px;
+}
+
+.A-banner{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    display: flex;
+    background-color:rgba(255, 241, 214, 1);
+    width: 100%;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.A-banner-text{
+    position: absolute;
+    display: flex;
+    text-decoration: none;
+    font-family: "Noto Sans TC", sans-serif;
+    outline: none; 
+    color: rgba(101, 70, 62, 1);
+    font-size: 34px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    align-items: center;
+    top: 40px;
+    left: 150px;
+}
+
+.process-b{
+    margin-top: 120px;
+}
+
+.process-button{
+    /* position: absolute; */
+    display: inline-block;
+    border: none;
+    background-color: rgba(220, 186, 169, 1);
+    color:rgb(255, 255, 255);
+    width: 160px;
+    height: 45px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 3px; 
+    justify-content: center;
+    align-items: center;   
+    box-shadow: 0 2px 25px rgba(220, 186, 169, 1);
+    transition: transform ease-in 0.01s, box-shadow ease-in 0.01s; 
+}
+
+.primary-green{
+    color:rgba(193, 214, 161, 1);
+}
+.primary-light{
+    color:rgba(210, 229, 208, 1);
+}
+.brown{
+    color: rgba(101, 70, 62, 1);
+}
+.second-light{
+    color:rgba(255, 241, 214, 1);
+}
+.gray{
+    color:rgba(189, 189, 189, 1);
+}
+.pink{
+    color:rgba(220, 186, 169, 1);
+}
+
+.process-button:before,
+.process-button:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 140%;
+    height: 100%;
+    left: -20%;
+    z-index: -1000;
+    transition: all ease-in-out 0.001s;
+    background-repeat: no-repeat;
+}
+.process-button:before {
+    display: none;
+    top: -75%;
+    background-image: radial-gradient(circle, #D2E5D0 20%, transparent 20%), radial-gradient(circle, transparent 20%, #D2E5D0 20%, transparent 30%), radial-gradient(circle, #D2E5D0 20%, transparent 20%), radial-gradient(circle, #D2E5D0 20%, transparent 20%), radial-gradient(circle, transparent 10%, #D2E5D0 15%, transparent 20%), radial-gradient(circle, #D2E5D0 20%, transparent 20%), radial-gradient(circle, #D2E5D0 20%, transparent 20%), radial-gradient(circle, #D2E5D0 20%, transparent 20%), radial-gradient(circle, #D2E5D0 20%, transparent 20%);
+    background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
+}
+.process-button:after {
+    display: none;
+    bottom: -75%;
+    background-image: radial-gradient(circle, #D2E5D0 20%, transparent 20%), radial-gradient(circle, #D2E5D0 20%, transparent 20%), radial-gradient(circle, transparent 10%, #D2E5D0 15%, transparent 20%), radial-gradient(circle, #D2E5D0 20%, transparent 20%), radial-gradient(circle, #D2E5D0 20%, transparent 20%), radial-gradient(circle, #D2E5D0 20%, transparent 20%), radial-gradient(circle, #D2E5D0 20%, transparent 20%);
+    background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
+}
+.process-button:active {
+    transform: scale(0.9);
+    background-color: rgba(193, 214, 161, 1);
+    box-shadow: 0 2px 25px rgb(182, 206, 149);;
+}
+.process-button:active:before {
+    display: block;
+    animation: anim-top ease-in-out 0.75s forwards;
+}
+.process-button:active:after {
+    display: block;
+    animation: anim-bottom ease-in-out 0.75s forwards;
+}
+@keyframes anim-top {
+    0% {
+        background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+    }
+    50% {
+        background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
+    }
+    100% {
+        background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
+        background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+}
+@keyframes anim-bottom {
+    0% {
+        background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+    }
+    50% {
+        background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
+    }
+    100% {
+        background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
+        background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+}
+
+/* search */
+
+input.form-control{
+    font-size: 12px;
+    padding-left: 30px;
+}
+  .form-control {
+    border:2px solid rgba(193, 214, 161, 1)!important;
+    border-radius: 7px;
+    border: 2px solid #E3E6ED;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: "Noto Sans TC", sans-serif ;
+    letter-spacing: 2px;
+    width: 276px;
+    
+  }
+
+  .form-control:focus {
+    box-shadow: none;
+    outline: none;
+    border: 1.5px solid #E3E6ED;
+    background-color: #F7F8FD;
+    letter-spacing: 1px;
+    font-family: "Noto Sans TC", sans-serif ;
+    letter-spacing: 2px;
+    font-size: 8pt;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    
+  }
+  /* .input-group{
+    
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  } */
+
+  .btn-primary {
+    position: absolute;
+    border:rgba(193, 214, 161, 1) !important;
+    background-color: rgba(193, 214, 161, 1) !important;
+    border-radius: 0 7px 7px 0!important;;
+    box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.2);
+    color:#ffffff;
+    left: -40px;
+    
+  }
+
+  .btn-primary:focus {
+    
+    box-shadow: none
+  }
+
+  .text {
+    
+    font-size: 10px;
+    color: #a7a7a7;
+    
+  }
+  @media screen and (max-width: 650px) {
+  .A-banner-text{
+    top:30px;
+    left: 240px;
+  }
+}
+
+@media screen and (max-width: 455px) {
+    .A-banner-text{
+      top:30px;
+      left: 150px;
+    }
+  }
+
+  @media screen and (max-width: 1400px) {
+    .form-control {
+        width: 235px;
+        
+      }
+  }
+
+  @media screen and (max-width: 1200px){
+    .form-control {
+        width: 190px;
+        
+      }
+  }
+
+  @media screen and (max-width: 992px){
+    .form-control {
+        width: 130px;
+        
+      }
+      input.form-control{
+        font-size: 10px;
+        padding-left: 30px;
+    }
+      
+
+      input.form-control{
+        
+        padding-left: 5px;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    .form-control {
+        width: 490px;
+        
+      }
+      input.form-control{
+        font-size: 12px;
+        padding-left: 30px;
+    }
+    
+      
+      input.form-control{
+        
+        padding-left: 15px;
+    }
+  }
+  @media screen and (max-width: 559px){
+    .form-control {
+        width: 440px;
+        
+      }
+      
+      input.form-control{
+        
+        padding-left: 15px;
+    }
+  }

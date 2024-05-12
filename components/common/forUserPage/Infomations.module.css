@@ -1,0 +1,503 @@
+.main {
+    width: 81.5%;
+    height: calc(100vh - 80px);
+    margin-left: 18.5%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.contentContainer {
+    border: 3px solid rgba(101, 70, 62, .8);
+    border-radius: 25px;
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    position: relative;
+}
+
+.redText {
+    color: rgba(255, 0, 0, .8);
+}
+
+.leftSide {
+    position: relative;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.rightSide {
+    /* border: 1px solid salmon; */
+    position: relative;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rightSide::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -2%;
+    width: 2px;
+    height: 70%;
+    background-color: rgba(101, 70, 62, .8);
+    transform: translateY(-50%);
+}
+
+.infoLabel {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(101, 70, 62, .95);
+}
+
+.photo {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.userPhoto {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photoEditBtnContainer {
+    position: absolute;
+}
+
+.uploadBtn,
+.deleteBtn {
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.uploadBtn:hover .uploadIcon {
+    scale: 1.09;
+}
+
+.deleteBtn:hover .deleteIcon {
+    scale: 1.09;
+}
+
+.uploadIcon,
+.deleteIcon {
+    font-size: 50px;
+    color: white;
+    border: 3px solid rgba(101, 70, 62, .7);
+    border-radius: 50%;
+    padding: 5px;
+    background-color: rgba(101, 70, 62, .7);
+    transition: .15s;
+}
+
+.userUsername {
+    /* border: 1px solid blue; */
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    margin-top: 30px;
+    color: #65463E;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 2px rgba(101, 70, 62, .5);
+}
+
+.userInfoContainer {
+    /* border: 1px solid gold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+
+.inputContainer {
+    /* border: 1px solid blue; */
+    font-weight: bold;
+    color: rgba(0, 0, 0, .7);
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.usernameInput {
+    width: 190px;
+    height: 38px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.UserInputContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.emailInput,
+.phoneInput,
+.addressInput,
+.passwordInput,
+.RetypePasswordInput,
+.birthdayInput {
+    border-radius: 15px;
+    text-align: center;
+    width: 80%;
+    height: 32px;
+}
+
+.birthdayInput {
+    padding: 0 10px 0 0;
+}
+
+.passwordBtn {
+    border: 3px solid #65463E;
+    background-color: white;
+    border-radius: 25px;
+    color: #65463E;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 4px 12px 4px 12px;
+    transition: .15s;
+    margin-right: 15px;
+}
+
+.passwordBtn:hover {
+    scale: 1.05;
+}
+
+.editIconContainer {
+    /* border: 1px solid purple; */
+    position: absolute;
+    bottom: -30px;
+    height: 60px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editIcon {
+    font-size: 42px;
+    border: 3px solid #65463E;
+    background-color: white;
+    color: #65463E;
+    border-radius: 50%;
+    transition: .15s;
+    padding: 3px;
+}
+
+.prevIcon {
+    font-size: 42px;
+    border: 3px solid #65463E;
+    background-color: white;
+    color: #65463E;
+    transition: .15s;
+    border-radius: 50%;
+}
+
+.editIcon:hover,
+.prevIcon:hover {
+    cursor: pointer;
+    scale: 1.07;
+}
+
+.checkButton {
+    border: 3px solid #65463E;
+    background-color: white;
+    border-radius: 25px;
+    color: #65463E;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 4px 12px 4px 12px;
+    transition: .15s;
+    margin-right: 15px;
+}
+
+.checkButton:hover {
+    cursor: pointer;
+    scale: 1.07;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.modalContent {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 241, 214, .25);
+    background-color: rgba(0, 0, 0, .3);
+    backdrop-filter: blur(5px);
+}
+
+.modalText {
+    margin-bottom: 10px;
+}
+
+.modalWarningIcon {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.modalCloseIcon {
+    border: 3px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.15s;
+}
+
+.modalCloseIcon:hover,
+.modalCloseIcon:focus {
+    scale: 1.07;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.fileInput {
+    display: none;
+}
+
+.customFileButton {
+    border: 3px solid #65463E;
+    border-radius: 25px;
+    color: #65463E;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 4px 12px 4px 12px;
+    transition: .1s;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, .35);
+}
+
+.customFileButton:hover {
+    cursor: pointer;
+    scale: 1.05;
+}
+
+.uploadFileName {
+    color: transparent;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: start;
+    padding: 0 0 5px 0;
+    letter-spacing: 0.05em;
+    text-shadow: 0px 0px 0px rgba(101, 70, 62, .85), 1px 1px 0px rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid rgba(101, 70, 62, .7);
+}
+
+.imgUploadBtn {
+    border: 3px solid #65463E;
+    background-color: #65463E;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 4px 12px 4px 12px;
+    transition: .1s;
+    margin-top: 20px;
+}
+
+.imgUploadBtn:hover {
+    cursor: pointer;
+    scale: 1.05;
+}
+
+.darkPhoto {
+    width: 200px;
+    border-radius: 50%;
+    filter: brightness(65%);
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .contentContainer {
+        height: 80%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .leftSide {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-top: 0px;
+
+    }
+
+    .rightSide {
+        width: 100%;
+    }
+
+    .rightSide::after {
+        content: '';
+        position: absolute;
+        top: -15PX;
+        left: 0;
+        width: 100%;
+        height: 2PX;
+        background-color: rgba(101, 70, 62, .8);
+        transform: translateY(-50%);
+    }
+
+    .photo,
+    .darkPhoto {
+        width: 150px;
+    }
+
+    .userUsername {
+        margin-top: 0px;
+        font-size: 36px;
+        height: auto;
+    }
+
+    .uploadIcon,
+    .deleteIcon {
+        font-size: 45px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .leftSide {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+
+    .contentContainer {
+        height: 90%;
+    }
+
+    .leftSide {
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
+
+
+
+    .userUsername {
+        margin-top: 15px;
+        font-size: 28px;
+    }
+
+    .photo,
+    .darkPhoto {
+        width: 120px;
+    }
+
+    .uploadIcon,
+    .deleteIcon {
+        font-size: 40px;
+    }
+
+
+    .inputContainer {
+        font-size: 14px;
+    }
+
+    .infoLabel {
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 520px) {
+    .contentContainer {
+        height: 95%;
+        margin-top: 15px;
+    }
+
+    .userInfoContainer {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .usernameInput {
+        width: 160px;
+        height: 38px;
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+    .emailInput,
+    .phoneInput,
+    .addressInput,
+    .passwordInput,
+    .RetypePasswordInput,
+    .birthdayInput {
+        border-radius: 15px;
+        text-align: center;
+        width: 80%;
+        height: 26px;
+
+    }
+
+    .passwordBtn {
+        font-size: 14px;
+        padding: 2px 10px 2px 10px;
+        margin-right: 0px;
+    }
+
+    .checkButton {
+        font-size: 16px;
+    }
+
+    .editIcon {
+        font-size: 34px;
+    }
+
+    .prevIcon {
+        font-size: 34px;
+    }
+}

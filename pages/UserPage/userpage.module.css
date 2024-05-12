@@ -1,0 +1,156 @@
+.main {
+    margin-top: 80px;
+    position: relative;
+}
+
+.userPageLeftBarContainer {
+    position: relative;
+    background-color: #FFF1D6;
+    width: 18.5%;
+    height: calc(100vh - 80px);
+}
+
+.userPageLinkContainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 15%;
+    top: 40px;
+}
+
+.userPageLinkContainer li {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.userPageLinkContainer a {
+    color: #65463E;
+    text-decoration: none;
+    font-size: 18px;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.userPageLinkContainer li:hover,
+.userPageLinkContainerSmall li:hover {
+    scale: 1.07;
+}
+
+.userPageLeftBarContainerSmall {
+    display: none;
+    position: relative;
+    background-color: #FFF1D6;
+    width: 0;
+    height: 100vh;
+    transition: .3s;
+}
+
+.userPageLeftBarContainerSmall a {
+    font-size: 14px;
+}
+
+.userPageLeftBarContainerSmall.open {
+    width: 19.5%;
+}
+
+.leftBarBtn {
+    position: absolute;
+    right: -20px;
+    height: 100%;
+    width: 20px;
+    border: none;
+    background-color: #FFF1D6;
+}
+
+.leftBarBtn:hover {
+    background-color: #f9e5be;
+}
+
+.unlogRightSide {
+    position: absolute;
+    right: 0;
+    width: 81.5%;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 50px 0 0 0;
+}
+
+.unlogLogo {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.unlogTitle {
+    color: #65463E;
+    font-weight: bold;
+    font-size: 32px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.unlogText {
+    color: #65463E;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.unlogBtnContainer {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.unlogBtnContainer a {
+    text-decoration: none;
+}
+
+.toLogin,
+.Signup {
+  width: 40%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toLogin {
+  border-right: 1.5px solid rgba(255 , 241, 214, .85);
+  background-color: rgba(101, 70, 62, .75);
+  height: 30px;
+  transition: .15s;
+  color: #fff1d6;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 2px rgba(101, 70, 62, 1);
+  border-radius: 15px;
+}
+
+.Signup {
+  border-left: 1.5px solid rgba(255 , 241, 214, .85);
+  background-color: rgba(101, 70, 62, .75);
+  height: 30px;
+  transition: .15s;color: #fff1d6;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 2px rgba(101, 70, 62, 1);
+  border-radius: 15px;
+}
+
+.toLogin:hover,
+.Signup:hover{
+  background-color:rgba(255 , 241, 214, .85);
+  color: #65463E;
+  font-weight: 545;
+}
+
+
+@media only screen and (max-width: 537px) {
+    .userPageLeftBarContainerSmall {
+        display: block;
+    }
+
+    .userPageLeftBarContainer {
+        display: none;
+    }
+}

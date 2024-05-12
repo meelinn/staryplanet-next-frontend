@@ -1,0 +1,25 @@
+.care-info-test{
+    height: 200px;
+}
+
+  /* .care-info-s3-img:hover {
+  filter: brightness(0) invert(1); 
+  transition: all 0.5s;
+  }  */
+
+  .care-info-s3-card{
+    background-color: #FFF1D6;
+
+  }
+  .care-info-s3-card:hover{
+    background-color: #65463E;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+    color: white;
+  }
+
+  /* 表示card的hover會影響到下面的img */
+  .care-info-s3-card:hover .care-info-s3-img {
+    filter: brightness(0) invert(1); 
+  }

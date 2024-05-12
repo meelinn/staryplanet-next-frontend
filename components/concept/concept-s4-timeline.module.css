@@ -1,0 +1,82 @@
+.timeline-icon {
+  font-size: 30px;
+  color: #65463e;
+  position: relative;
+}
+
+.timeline-icon::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -80%; /* 调整伪元素的位置，使其位于文字末尾 */
+  transform: translateY(-50%); /* 将伪元素垂直居中 */
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #C1D6A1;
+  z-index: -1;
+}
+
+.timeline-icon::after {
+  content: '';
+  position: absolute;
+  top: 50%; /* 将线条定位在容器垂直居中位置 */
+  left: 50%; /* 将线条定位在容器水平居中位置 */
+  transform: translateX(-50%) translateY(30%);/* 将线条水平和垂直居中 */
+  width: 10px; /* 线条宽度 */
+  height: 120px; /* 线条高度，与容器高度相同 */
+  background-color: #D2E5D0; /* 线条颜色 */
+  z-index: -2;
+  /* #FFF1D6 */
+}
+
+div:nth-of-type(6) .timeline-icon::after {
+  display: none;
+}
+
+
+
+
+@keyframes LinePath {
+  0% {
+    background-color: #FFF1D6;
+  }
+  25% {
+    background-color: #C1D6A1;
+  }
+  50% {
+    background-color: #D2E5D0;
+  }
+  75% {
+    background-color: #FFF1D6;
+  }
+  100% {
+    background-color: #FFF1D6;
+  }
+}
+
+
+.zoom-in {
+  animation-name: zoomIn;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.LinePath {
+  animation-name: LinePath; /* 应用线条上色动画 */
+  animation-duration: 4s; /* 线条上色动画持续时间 */
+  animation-timing-function: linear; /* 线条上色动画缓动函数 */
+  animation-delay: 1s; /* 线条上色动画延迟时间 */
+  animation-iteration-count: infinite; /* 线条上色动画迭代次数 */
+  animation-direction: alternate; /* 线条上色动画播放方向 */
+}

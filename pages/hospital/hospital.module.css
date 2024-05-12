@@ -1,0 +1,496 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600,700|Poppins:200,200i,300,300i,400,500,500i,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600,700|Poppins:200,200i,300,300i,400,500,500i,600,700,800,900&display=swap");
+
+.row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px
+}
+
+.payment-button {
+  width: 100%;
+  font-size: 20px;
+  background-color: #DCBAA9; 
+  border: none; /* 去掉邊框 */
+  border-radius: 15px; /* 設置圓角邊框 */
+  padding: 10px 20px;/* 設置文字周圍的內邊距 */
+  margin: 5px; /* 設置按鈕之間的間距 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 可選：添加一些陰影效果 */
+  transition: all 0.3s; 
+}
+
+
+.centered-container {
+  margin: 0 auto;
+  min-width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; /* 垂直置中 */
+  height: 100px; /* 容器高度，根據需要調整 */
+  background-color: #ffffff; /* 背景顏色 */
+  flex-wrap: wrap; /* 允許容器中的項目換行 */
+}
+
+@media (min-width: 768px) {
+  .payment-button {
+    padding: 20px 80px; /* 使用视口宽度单位 vw */
+  }
+}
+
+.text-color {
+  color: #65463E; /* 設定字體顏色 */
+  font-size: 50px
+}
+
+.first-section {
+  border-bottom: 1px solid #ccc; /* 為第一項添加分隔線 */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins", sans-serif;
+  color: #191d34;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #909092;
+  margin-bottom: 13px;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+
+
+.service_icon_bg_1 {
+  background-image: url(../img/service/service_icon_bg_1.png);
+}
+
+.service_area {
+  padding-top: 241px;
+  padding-bottom: 106px;
+}
+
+
+
+
+.service_area .single_service {
+  padding: 70px 25px 65px 25px;
+  border: 1px solid #ffc5c2;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+
+.service_area .single_service .service_thumb {
+  height: 140px;
+  width: 160px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: auto;
+}
+
+.service_area .single_service .service_thumb .service_icon img {
+  width: auto;
+}
+
+
+
+
+
+.service_area .single_service .service_content p {
+  margin-bottom: 0;
+}
+
+
+.service_area .single_service:hover {
+  -webkit-box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+  -moz-box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+  box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+  border: 1px solid transparent;
+}
+
+/* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_team.scss */
+.team_area {
+  padding-bottom: 200px;
+  padding-top: 125px;
+}
+
+
+
+
+/* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_bradcam.scss */
+.breadcam_bg {
+  background-image: url(../img/banner/bradcam.png);
+}
+
+
+/* line 10, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_bradcam.scss */
+.bradcam_area {
+  background-size: cover;
+  background-position: center center;
+  padding: 160px 0;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+h1 {
+  font-size: 36px;
+}
+
+
+h2 {
+  font-size: 30px;
+}
+
+
+h3 {
+  font-size: 30px;
+  color: #65463E;
+}
+
+
+h4 {
+  font-size: 18px;
+}
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2em;
+}
+
+
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+
+
+.section-top-border {
+  padding: 50px 0;
+  border-top: 1px dotted #eee;
+  /* justify-content: center; 水平居中 */
+  /* align-items: center; 垂直居中（如果需要） */
+}
+
+.third-top-border {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.mb-15{
+  margin-bottom: 10px;
+}
+
+.mb-20{
+  margin-bottom: 30px;
+}
+.mb-25 {
+  margin-bottom: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+  padding:15px
+}
+
+
+
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+
+.switch-wrap {
+  margin-bottom: 10px;
+}
+
+.single_service {
+  padding: 70px 25px 65px 25px;
+  border: 1px solid #ffc5c2;
+  border-radius: 10px;
+  margin-bottom: 30px;
+
+}
+
+
+
+.single_service .service_thumb {
+  height: 140px;
+  width: 160px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: auto;
+}
+
+.single_service .service_thumb .service_icon img {
+  width: auto;
+}
+
+.sample-text-area {
+  background: #fff;
+  padding: 50px 0 70px 0;
+}
+
+.text-heading {
+  margin-bottom: 30px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content h1 {
+  font-size: 3em;
+  color: #333;
+}
+
+.content p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #666;
+}
+
+.content-title {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.item-title {
+  font-size: 20px; /* 根據您的設計調整大小 */
+  font-weight: bold; /* 粗體字 */
+  color: #333; /* 深色字體 */
+  margin-bottom: 10px; /* 與下一個元素的距離 */
+}
+/* .wp-block-spacer {
+  clear: both
+} */
+
+/* Section Content */
+/* .section-content {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+} */
+
+/* Ordered List */
+.ol-decimal {
+  counter-reset: item;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.ol-decimal > li {
+  margin-bottom: 10px;
+  counter-increment: item;
+  position: relative;
+}
+
+/* Nested List */
+.nested-list {
+  list-style-type: none; /* Remove default list style */
+  padding-left: 20px;
+}
+
+/* Nested List Item */
+.nested-list-item::before {
+  content: ""; /* Empty content for the pseudo-element */
+  display: inline-block;
+  margin-right: 10px;
+  height: 6px;
+  width: 6px;
+  background-color: #000;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-left: -16px; /* Adjust as needed to align with the text */
+}
+
+/* Emphasized Text */
+.emphasize {
+  font-weight: bold;
+  color: #000;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  background: #fffbe7;
+  border-left: 4px solid #ffce3d;
+  margin-bottom: 10px;
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* 現有的樣式不變，增加以下樣式 */
+
+.insurance-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.insurance {
+  background: #f3f3f3;
+  border: 1px dashed #ccc;
+  padding: 20px;
+  margin-bottom: 10px;
+  width: 30%;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.insurance:hover {
+  background-color: #c8e6c9;
+}
+
+#comparison {
+  /* ...其他樣式保持不變 */
+  margin-top: 20px;
+  padding: 20px;
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+}
+
+.comparison-container {
+  background: #fffbe7;
+  border: none;
+  padding: 20px;
+  text-align: center;
+}
+
+/* 可選擇的樣式，使得拖動時有個輕微的縮放效果 */
+.card:active {
+  transform: scale(0.95);
+}
+
+#map {
+  width: 100%;
+  height: 400px; /* 或者根据您的具体需要调整高度 */
+  background-color: #f3f3f3; /* 用于模拟地图的灰色背景 */
+  border: 1px solid #ddd;
+  text-align: center;
+  line-height: 400px; /* 使文字垂直居中 */
+}
+
+
+.row {
+  display: flex;
+}
+
+
+.col-md-8 {
+  flex: 0 0 66.66667%; /* 8/12的宽度 */
+}
+
+.filter-panel {
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.filter-header h3 {
+  margin: 0;
+}
+
+.option-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.option-icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.option-text {
+  flex-grow: 1;
+}
+
+.form-check {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 15px; /* 或根據您的設計調整 */
+}
+
+
+/* 如果需要，可以添加額外的樣式來美化選項 */
+.form-check-input {
+  cursor: pointer; /* 使勾選框的光標變為指針，表示可點擊 */
+}
+
+.form-check-label {
+  cursor: pointer; /* 同上，使標籤也是可點擊的 */
+  margin-left: 0.25em; /* 可能需要根據實際情況調整間距 */
+}
+
+/* 如果想要自定義勾選框的外觀，可以添加以下樣式 */
+.form-check-input:checked {
+  background-color: #198754; /* 勾選框選中時的背景色 */
+  border-color: #198754; /* 勾選框選中時的邊框色 */
+}
+
+
+/* 按钮的额外样式 */
+.btn-outline-primary {
+  margin-right: 5px; /* 按钮之间的间距 */
+}
+
+.badge {
+  display: block; /* 使标签独占一行 */
+  width: 100%; /* 让标签宽度铺满容器 */
+  padding: 0.5em 0; /* 给标签上下一些填充 */
+  text-align: center; /* 文本居中 */
+  margin-bottom: 1em; /* 在标签下方留出一些空间 */
+}

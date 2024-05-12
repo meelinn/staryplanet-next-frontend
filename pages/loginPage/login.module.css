@@ -1,0 +1,232 @@
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/img/Darren/background.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.loginFormContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainForm {
+    position: relative;
+    margin-top: 80px;
+    padding: 20px;
+    width: 360px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 241, 214, .25);
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 30px;
+}
+
+.formTitle {
+    font-size: 32px;
+    letter-spacing: 3px;
+    color: #65463E;
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+
+.inputContainer {
+    width: 85%;
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.inputField {
+    width: 100%;
+    height: 32px;
+    border: none;
+    background-color: transparent;
+}
+
+.inputField::placeholder {
+    display: none;
+}
+
+.inputField:focus {
+  outline: none;
+}
+
+.linkContainer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.loginIcons {
+    font-size: 22px;
+    color: rgba(101, 70, 62, 1);
+    margin-right: 5px;
+}
+
+.hideAndShow:hover {
+    scale: 1.05;
+}
+
+
+.forgotPassword,
+.goRegister {
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+    left: 0;
+    color: rgb(77, 77, 77);
+    transition: .1s;
+    font-weight: 600;
+}
+
+.forgotPassword:hover,
+.goRegister:hover {
+   letter-spacing: 1px;
+}
+
+.submitButton {
+    margin-top: 15px;
+    width: 85%;
+    height: 32px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    background-color:rgba(101, 70, 62, .75);
+    border-radius: 20px;
+    transition: .15s;
+}
+
+.submitButton:hover {
+    scale: 1.05;
+}
+
+.Third_party_section {
+    margin-top: 30px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.googleBtn {
+    margin-top: 25px;
+    border: none;
+    background-color: transparent;
+}
+
+.googleImg {
+    width: 40px;
+    transition: 0.15s;
+}
+
+.googleImg:hover {
+    scale: 1.07;
+}
+
+.unlogTitle {
+    font-size: 22px;
+    color: #65463E;
+}
+
+.unlogUsername {
+    font-size: 30px;
+    font-weight: bold;
+    color: #65463E;
+    text-shadow: 3px 3px 6px rgba(255 , 241, 214, .8);
+}
+
+.unlogPhoto {
+    margin-top: -20px;
+    width: 135px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.unlogContent {
+    margin-top: 10px;
+    color: rgba(0, 0, 0, .6);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.unlogBtnContainer {
+    width: 50%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.unlogBtn {
+    border: none;
+    background-color: rgba(101, 70, 62, .75);transition: .15s;
+  color: #fff1d6;
+  letter-spacing: 3px;
+  height: 35px;
+  text-shadow: 1px 1px 2px rgba(101, 70, 62, 1);
+  border-radius: 10px;
+}
+
+.unlogBtn:hover{
+  font-weight: bold;
+  scale: 1.07;
+}
+
+.unlogMainForm{
+    position: relative;
+    margin-top: 80px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 241, 214, .25);
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 30px;
+}
+@media only screen and (max-width: 512px) {
+
+    .mainForm {
+        width: 80%;
+        height: 420px;
+    }
+
+    .formTitle {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .Third_party_section {
+        font-size: 14px;
+    }
+
+    .forgotPassword {
+        font-size: 13px;
+    }
+
+    .submitButton {
+        height: 28px;
+        font-size: 16px;
+    }
+}

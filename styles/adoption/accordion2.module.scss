@@ -1,0 +1,19 @@
+.accordion {
+    --bs-accordion-btn-bg:  rgba(255, 241, 214, 1);
+    --bs-accordion-active-bg:  rgba(255, 241, 214, 1);
+    --bs-accordion-active-color:rgba(101, 70, 62, 1) ;
+    --bs-accordion-bg: white;
+    --bs-accordion-color: rgba(101, 70, 62, 1) ;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-border-color: rgba(255, 241, 214, 1);
+
+    button {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .accordion-button:not(.collapsed) {
+        box-shadow: none;
+      }
+      
+  }
+  
+  

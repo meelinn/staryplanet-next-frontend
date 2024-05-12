@@ -1,0 +1,224 @@
+.row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: center;
+ 
+  
+}
+
+.breadcam_bg {
+  /* background-image: url(../../public/img/bradcam.png); */
+}
+
+.payment_button {
+  width: auto;
+  font-size: 20px;
+  background-color: #DCBAA9; 
+  border: none; /* 去掉邊框 */
+  border-radius: 15px; /* 設置圓角邊框 */
+  padding: 10px 20px;/* 設置文字周圍的內邊距 */
+  margin: 5px; /* 設置按鈕之間的間距 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 可選：添加一些陰影效果 */
+  transition: all 0.3s; 
+}
+
+
+.centered_container {
+  margin: auto;
+  min-width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; /* 垂直置中 */
+  height: 100px; /* 容器高度，根據需要調整 */
+  background-color: #ffffff; /* 背景顏色 */
+  flex-wrap: wrap; /* 允許容器中的項目換行 */
+ 
+}
+
+
+
+@media (min-width: 768px) {
+  .payment_button {
+    padding: 20px 80px; /* 使用视口宽度单位 vw */
+  }
+}
+
+.text_color {
+  color: #65463E; /* 設定字體顏色 */
+  font-size: 50px
+}
+
+
+
+.single_service {
+  padding: 70px 25px 65px 25px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  margin:10px;
+  
+    padding: 70px 25px 65px 25px;
+    border: 1px solid #ffc5c2;
+}
+
+
+.service_area .single_service .service_thumb {
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: auto;
+}
+
+.service_area .single_service .service_thumb .service_icon img {
+  width: auto;
+}
+
+
+
+.service_area .single_service .service_content p {
+  margin-bottom: 0;
+}
+
+
+.service_area .single_service:hover {
+  -webkit-box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+  -moz-box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+  box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+  border: 1px solid transparent;
+}
+
+/* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_team.scss */
+.team_area {
+  padding-bottom: 200px;
+  padding-top: 125px;
+}
+
+
+.bradcam_area {
+  background-size: cover;
+  background-position: center center;
+  padding: 160px 0;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+
+.title_1 {
+  font-size: 30px;
+  color: #65463E;
+  
+}
+
+
+.title_2 {
+  font-size: 18px;
+}
+
+
+.title_3{
+  font-size: 30px;
+  color: #65463E;
+  margin: 40px 0 0 0;
+}
+
+.mt_10 {
+  margin-top: 10px;
+}
+
+
+
+.section_top_border {
+  padding: 50px 0;
+  border-top: 1px dotted #eee;
+  /* justify-content: center; 水平居中 */
+  /* align-items: center; 垂直居中（如果需要） */
+}
+
+.first_section {
+  border-bottom: 1px solid #ccc; /* 為第一項添加分隔線 */
+}
+
+.third_top_border {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.mb_15{
+  margin-bottom: 10px;
+}
+
+.mb_20{
+  margin-bottom: 30px;
+}
+.mb_25 {
+  margin-bottom: 30px;
+}
+
+.mb_30 {
+  margin-bottom: 30px;
+  padding:15px
+}
+
+
+
+
+.mt_30 {
+  margin-top: 30px;
+}
+
+
+.switch_wrap {
+  margin-bottom: 10px;
+}
+
+.single_service .service_thumb {
+  height: 140px;
+  width: 160px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: auto;
+}
+
+.single_service .service_thumb .service_icon img {
+  width: auto;
+}
+
+.sample_text_area {
+  background: #fff;
+  padding: 50px 0 70px 0;
+}
+
+.text_heading {
+  margin-bottom: 30px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.col_md_8 {
+  flex: 0 0 66.66667%; /* 8/12的宽度 */
+}
+
+.form_check {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 15px; /* 或根據您的設計調整 */
+}
+
+/* 在您的 CSS 模塊文件中 */
+.img_responsive {
+  width: 100%; /* 預設情況下，讓圖片寬度自適應至父元素寬度 */
+  height: auto; /* 保持圖片的高寬比 */
+  max-width: 200px;
+}
+

@@ -1,0 +1,128 @@
+
+
+#root {
+  
+  --secondary: rgba(255, 241, 214, 1);
+  --background: #ffffff;
+  --highlight: #ffda79;
+  /* Theme color */
+  --theme: var(--primary);
+}
+
+.primary-green{
+  color:rgba(193, 214, 161, 1);
+}
+.primary-light{
+  color:rgba(210, 229, 208, 1);
+}
+.brown{
+  color: rgba(101, 70, 62, 1);
+}
+.second-light{
+  color:rgba(255, 241, 214, 1);
+}
+.gray{
+  color:rgba(189, 189, 189, 1);
+}
+.pink{
+  color:rgba(220, 186, 169, 1);
+}
+.pink{
+  color:#ffffff;
+}
+
+
+
+/* Core styles/functionality */
+.tab input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.tab__content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.35s;
+}
+.tab input:checked ~ .tab__content {
+  max-height: 520px;
+}
+
+/* Visual styles */
+.A-accordion {
+  color: rgba(255, 241, 214, 1);
+  border: 2px solid;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+ margin-top: 50px;
+
+}
+.tab__label,
+.tab__close {
+  display: flex;
+  color: rgba(101, 70, 62, 1);
+  background: rgba(255, 241, 214, 1);
+  cursor: pointer;
+  font-family: "Noto Sans TC", sans-serif;
+  
+}
+.tab__label {
+  justify-content: space-between;
+  padding: 1rem;
+  
+}
+.tab__label::after {
+  content: "\276F";
+  width: 1.7em;
+  height: 1.7em;
+  text-align: center;
+  transform: rotate(90deg);
+  transition: all 0.35s;
+ 
+  
+}
+.tab input:checked + .tab__label::after {
+  transform: rotate(270deg);
+  
+}
+.tab__content p {
+  margin: 0;
+  padding: 1rem;
+  
+}
+.tab__close {
+  justify-content: flex-end;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+}
+
+.tab__content p{
+  color: rgba(101, 70, 62, 1);
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+/* Arrow animation */
+.tab input:not(:checked) + .tab__label:hover::after {
+  animation: bounce .5s infinite;
+
+}
+@keyframes bounce {
+  25% {
+    transform: rotate(90deg) translate(.25rem);
+  }
+  75% {
+    transform: rotate(90deg) translate(-.25rem);
+  }
+}
+
+.tab__content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.35s;
+ 
+}
+
+.tab__content.active {
+  max-height: 10rem;
+}

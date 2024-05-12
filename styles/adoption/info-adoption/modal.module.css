@@ -1,0 +1,173 @@
+.custom-modal{
+
+}
+
+.modal-container{
+  display: flex;
+}
+
+.mymodalBodyinfo{
+  margin-left: 80px;
+}
+
+.modalHeader {
+  border-bottom: none !important;
+}
+
+.mymodalBody{
+  display: flex;
+   /* 將圖片寬度設置為暫視窗的50% */
+  
+}
+.mymodalBody>img{
+  /* 使用 cover 來填充圖片 */
+
+}
+
+.mymodalFooter{
+  border-top: none !important;
+}
+
+.mymodalBodyP{
+  display: flex;
+  flex-direction: column
+
+}
+
+.mymodalBodyimg{
+  width: 200px;
+  height: 200px;
+  object-fit: cover; 
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.image-container {
+  width: 100%; /* 设置容器宽度 */
+  height: 0; /* 设置容器初始高度为0 */
+  padding-top: 100%; /* 以容器宽度作为基准设置高度，实现1:1比例 */
+  position: relative; /* 设置相对定位，以便定位内部图像 */
+}
+
+.modal-image {
+  width: 100%; /* 图像宽度充满容器 */
+  height: 100%; /* 图像高度充满容器 */
+  object-fit: cover; /* 图像按比例缩放填充容器 */
+  position: absolute; /* 设置绝对定位，使图像覆盖容器 */
+  top: 0; /* 图像位于容器顶部 */
+  left: 60px; /* 图像位于容器左侧 */
+  border-radius: 10px;
+
+}
+
+.modalHeader>h2{
+  color: rgba(101, 70, 62, 1);
+  font-family: "Noto Sans TC", sans-serif;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+.mymodalBodyP>p{
+  color: rgba(101, 70, 62, 1);
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+@media screen and (max-width: 991px){
+  .modal-image {
+    width: 250px; /* 图像宽度充满容器 */
+    height: 250px; /* 图像高度充满容器 */
+    top: 0px; /* 图像位于容器顶部 */
+    left: 20px; /* 图像位于容器左侧 */
+  }
+
+  .mymodalBodyimg{
+    width: 150px;
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .modal-image {
+    width: 280px; /* 图像宽度充满容器 */
+    height: 280px; /* 图像高度充满容器 */
+    top: 0px; /* 图像位于容器顶部 */
+    left: 20px; /* 图像位于容器左侧 */
+  }
+
+  .mymodalBodyimg{
+    width: 150px;
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 10px;
+  }
+
+  .mymodalBodyP{
+    margin-left: 50px;
+  }
+
+  .modalHeader>h2{
+  
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 763px){
+  .mymodalBodyP{
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 535px){
+  .mymodalBodyP{
+    margin-left: 180px;
+  }
+
+  .modal-image {
+    width: 250px; /* 图像宽度充满容器 */
+    height: 250px; /* 图像高度充满容器 */
+    top: 0px; /* 图像位于容器顶部 */
+    left: 20px; /* 图像位于容器左侧 */
+  }
+
+  .mymodalBodyimg{
+    width: 150px;
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 535px){
+  .modal-image {
+    width: 220px; /* 图像宽度充满容器 */
+    height: 220px; /* 图像高度充满容器 */
+    top: 0px; /* 图像位于容器顶部 */
+    left: 20px; /* 图像位于容器左侧 */
+  }
+
+  .mymodalBodyP{
+    margin-left: 150px;
+  }
+}
+
+@media screen and (max-width: 488px){
+  .modal-image {
+    width: 200px; /* 图像宽度充满容器 */
+    height: 200px; /* 图像高度充满容器 */
+    top: 0px; /* 图像位于容器顶部 */
+    left: 20px; /* 图像位于容器左侧 */
+  }
+
+  .mymodalBodyP{
+    margin-left: 100px;
+  }
+  .mymodalBodyimg{
+    width: 120px;
+    height: 120px;
+    object-fit: cover; 
+    border-radius: 10px;
+  }
+}

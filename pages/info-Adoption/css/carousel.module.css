@@ -1,0 +1,17 @@
+.mycarousel {
+    max-width: 500px;
+    max-height: 500px;
+    margin-top: 120px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.2);
+   
+  }
+  
+  .mycarouselimg {
+    object-fit: cover; 
+    width: 500px;
+    height: 500px;
+    /* 裁剪溢出部分，保持比例填充 */
+  
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.2);
+  }

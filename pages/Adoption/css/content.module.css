@@ -1,0 +1,62 @@
+.primary-green{
+  color:rgba(193, 214, 161, 1);
+}
+.primary-light{
+  color:rgba(210, 229, 208, 1);
+}
+.brown{
+  color: rgba(101, 70, 62, 1);
+}
+.second-light{
+  color:rgba(255, 241, 214, 1);
+}
+.gray{
+  color:rgba(189, 189, 189, 1);
+}
+.pink{
+  color:rgba(220, 186, 169, 1);
+}
+
+
+.A-accordion{
+
+  margin-top: 40px;
+} 
+
+
+.A-breadcrumb{
+  padding-bottom: 14px;
+  margin-left: 6px;
+  
+}
+
+.A-breadcrumb-li{
+  color: rgba(101, 70, 62, 1);
+  letter-spacing: 2px;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.A-breadcrumb-li2{
+  color:rgba(220, 186, 169, 1) !important ;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-family: "Noto Sans TC", sans-serif !important;
+}
+
+
+
+@media screen and (max-width: 501px) {
+  .A-adoption-container {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 150px;
+    align-items: flex-start; /* 元素靠左對齊 */
+    
+  }
+
+  .A-adoption{
+    padding-left:5px !important
+  }
+}

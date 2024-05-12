@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="aboutUs-style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- test -->
+</head>
+<body>
+  
+  <div class="aboutUsContainer">
+    <h1 class="aboutUsTitle">About Us</h1>
+    <h3 class="aboutUsSubtitle">寵物用品公司及製造商</h3>
+    <div class="linkContainer">
+      <a href="#">關於我們</a>
+      <a href="#">組織結構</a>
+      <a href="#">經營理念</a>
+      <a href="#">品質管理</a>
+      <a href="#">檢驗報告</a>
+    </div>
+  </div>
+
+  <div class="toggle_btn_container">
+    <button class="toggle_btn">關於我
+      <i class="fa-solid fa-chevron-down"></i>
+    </button>
+  </div>
+
+  <div class="dropdown_menu ">
+    <div class="dropdown_link_container">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </div>
+</div>
+
+
+  <div class="descSection">
+    <img class="aboutUsImage " src="images/building2.png" alt="">
+    <div class="descContainer">
+      <h3 class="descTitle">決定致力於此行業的動機</h3>
+      <div class="descContent">
+
+        <p>全球寵物用品公司成立於1995年，多年來專業致力於狗、貓食品的研發與生產，更拓展業務至小動物(鼠、兔)、鳥、水族…等寵物的週邊用品﹝如：洗毛精、零食、狗繩、頸圈﹞。</p>
+
+        <p>
+          我們重視寵物食品安全，全球寵物食品之原料皆獲得來源國官方及ISO.HACCP食品衛生認證，所研發之寵物食品會依據寵物體型及不同年齡層需求，從食品營養學的角度給予寵物全方位的照顧；而生產過程更是嚴格控管，所生產的寵物食品皆經過檢驗，以確保為品質優良的商品，可以放心讓您的寵物寶貝安心食用。
+        </p>
+
+        <p>
+          全球寵物用品公司把改善寵物飼育環境作為企業的社會責任。2018年成立《愛心集食‧飼料募集平台》，提供高品質且營養豐富的寵物糧食一同幫助流浪動物及弱勢園區，藉由企業以身作則，推動寵物得到最完善的照顧是我們永續經營的目標與使命。
+        </p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="descImgSection">
+    <div class="descImgContainer">
+      <img class="descImg" src="images/img5.jpg" alt="">
+      <img class="descImg" src="images/img4.jpg" alt="">
+      <img class="descImg" src="images/img3.jpg" alt="">
+      <img class="descImg" src="images/img1.jpg" alt="">
+    </div>
+  </div>
+  
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+  <script>
+    const toggleBtn = document.querySelector('.toggle_btn');
+    const toggleBtnIcon = document.querySelector('.toggle_btn i');
+    const dropDownMenu = document.querySelector('.dropdown_menu');
+
+    toggleBtn.addEventListener('click', function() {
+      dropDownMenu.classList.toggle('open');
+      const isOpen = dropDownMenu.classList.contains('open');
+      
+      toggleBtnIcon.classList = isOpen
+        ? 'fa-solid fa-chevron-up'
+        : 'fa-solid fa-chevron-down';
+
+      this.classList.toggle('clicked');
+    });
+</script>
+
+</body>
+</html>

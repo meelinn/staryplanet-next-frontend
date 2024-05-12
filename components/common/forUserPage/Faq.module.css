@@ -1,0 +1,21 @@
+.main {
+    color: blue;
+    width: 81.5%;
+    height: calc(100vh - 80px);
+    background-color: blue;
+    margin-left: 18.5%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* 使 footer 依賴於 .bigcontainer 元素 */
+    min-height: calc(112vh - 500px); 
+}
+
+.contentContainer {
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+    height: 90%;
+    position: relative; /* 使 footer 依賴於 .bigcontainer 元素 */
+    min-height: calc(112vh - 100px); 
+}

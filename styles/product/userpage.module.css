@@ -1,0 +1,79 @@
+
+.main {
+    margin-top: 80px;
+    display: flex;
+}
+
+.userPageLeftBarContainer {
+    position: relative;
+    background-color: #FFF1D6;
+    padding-left: -10px !important;
+    height: 100vh;
+}
+
+.userPageLinkContainer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 15%;
+    top: 40px;
+}
+
+.userPageLinkContainer li {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.userPageLinkContainer a {
+    color: #65463E;
+    text-decoration: none;
+    font-size: 18px;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.userPageLinkContainer li:hover,
+.userPageLinkContainerSmall li:hover {
+    scale: 1.07;
+}
+
+.userPageLeftBarContainerSmall {
+    display: none;
+    position: relative;
+    background-color: #FFF1D6;
+    width:0;
+    height: 100vh;
+    transition: .3s;
+}
+
+.userPageLeftBarContainerSmall a {
+    font-size: 14px;
+}
+
+.userPageLeftBarContainerSmall.open {
+    width: 19.5%;
+}
+
+.leftBarBtn {
+    position: absolute;
+    right: -20px;
+    height: 100%;
+    width: 20px;
+    border: none;
+    background-color:#FFF1D6 ;
+}
+
+.leftBarBtn:hover {
+    background-color:#f9e5be ;
+}
+
+
+@media only screen and (max-width: 537px) {
+    .userPageLeftBarContainerSmall {
+        display: block;
+    }
+
+    .userPageLeftBarContainer {
+        display: none;
+    }
+}
