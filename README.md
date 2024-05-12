@@ -2,20 +2,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Demo
 
-![認養概念 - 靜態頁面](https://ibb.co/zVTRYR1)
+![認養概念 - 靜態頁面](https://i.ibb.co/DfHCyCN/screencapture-localhost-3000-concept-2024-05-10-14-58-58.png)
 
-![飼養知識 - 靜態頁面](https://ibb.co/d28d3ZZ)
+![飼養知識 - 靜態頁面](https://i.ibb.co/7WswThh/screencapture-localhost-3000-concept-care-info-2024-05-10-14-59-50.png)
 
-![帶我回家 - API得到資料,router篩選](https://ibb.co/F7xCs4r)
+![帶我回家 - API得到資料,router篩選](https://i.ibb.co/mzDgv5j/screencapture-localhost-3000-Adoption-2024-05-10-15-05-11.png)
 
-![我的最愛 - API得到資料  ](https://drive.google.com/file/d/1fdj8yRDgcSuU46GMv3q2IcrjLnqjRZh8/view?usp=drive_link)
+![我的最愛 - API得到資料  ](https://i.ibb.co/1LL1DBd/screencapture-localhost-3000-User-Page-2024-05-12-13-28-11.png)
 
-![優惠券- API得到/新增/刪除資料  ](https://drive.google.com/file/d/1dAw30uFuxiLLeJkbaYCahviKeeK5Ngaz/view?usp=drive_link)
+![優惠券- API得到/新增/刪除資料  ](https://i.ibb.co/2WwJWTN/screencapture-localhost-3000-User-Page-2024-05-10-15-03-41.png)
 
-
-
-https://ibb.co/xDDWpwf
-https://ibb.co/NtXRtMS
 
 ## Getting Started
 
