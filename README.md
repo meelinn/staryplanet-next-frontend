@@ -30,6 +30,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
   - [MySQL](https://www.mongodb.com/)
 
 - **UI/UX庫**： 
+  - [Font Awesome](https://fontawesome.com/)
   - [react-icons](https://github.com/react-icons/react-icons)
 
 ## Demo
