@@ -17,6 +17,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - **前端框架**：
   - [Next.js](https://nextjs.org/)
   - [Bootstrap](https://getbootstrap.com/) 
+  
+  **前端技術**：
+  - [AJAX](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX)
 
 - **後端框架**：
   - [Express.js](https://expressjs.com/) 
