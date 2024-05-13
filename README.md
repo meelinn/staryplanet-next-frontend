@@ -21,7 +21,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-[需搭配後端使用] (https://github.com/meelinn/staryplanet-next-frontend)
+[需搭配後端使用](https://github.com/meelinn/staryplanet-next-frontend)
 
 run the development server:
 
