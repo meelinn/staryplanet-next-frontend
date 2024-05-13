@@ -80,4 +80,4 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) Please refer to the [APIdocument](https://github.com/meelinn/staryplanet-express-backend/tree/main?tab=readme-ov-file#api-%E8%B7%AF%E7%94%B1) to obtain relevant information about API routes.
+[API routes](https://nextjs.org/docs/api-routes/introduction) Please refer to the [API document](https://github.com/meelinn/staryplanet-express-backend/tree/main?tab=readme-ov-file#api-%E8%B7%AF%E7%94%B1) to obtain relevant information about API routes.
