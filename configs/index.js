@@ -1,15 +1,13 @@
 export const PORT = 3005
 export const DEV = true
 
-// express 的位置
-// export const apiBaseUrl = 'http://localhost:3005/api'
-// export const avatarBaseUrl = 'http://localhost:3005/avatar'
 export const FRONT_END = 'http://localhost:3000'
 
 export const API_SERVER = 'http://localhost:3005'
 
 export const LOGIN_POST = `${API_SERVER}/login` // POST
 
+//PET_INFO
 export const PET_LIST = `${API_SERVER}/pet-info/api`
 // PET_LIST = http://localhost:3001/pet-info/api
 //搜尋: ?keyword=狗
@@ -20,11 +18,12 @@ export const PET_SMILER = `${API_SERVER}/pet-info/smiler`
 
 //http://localhost:3005/pet-info/jwt-pet-like/1
 export const JWT_PET_LIKE = `${API_SERVER}/pet-info/jwt-pet-like` // GET
+
+//我的最愛
 export const FAVORITE_PET = `${API_SERVER}/favorite/pet` // GET
 export const FAVORITE_PRODUCT = `${API_SERVER}/favorite/product` // GET
-
+//優惠券
 export const COUPON = `${API_SERVER}/coupon/api`
-
 export const COUPON_ADD = `${API_SERVER}/coupon/add`
 
 //aki

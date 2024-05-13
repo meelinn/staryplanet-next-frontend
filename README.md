@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## 專案介紹
+## 毛毛星球-專案介紹
 
 毛毛星球整合認養媒合和商城資源，為愛貓愛狗人士提供一個全方位的服務平台，從而促進流浪貓狗認養媒合配對、鼓勵認養並提供更優惠的毛孩商品給大眾。
 
@@ -51,9 +51,24 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## 安裝指南
 
-需搭配後端使用 [https://github.com/meelinn/staryplanet-express-backend/](https://github.com/meelinn/staryplanet-express-backend/)
+需搭配後端使用 [https://github.com/meelinn/staryplanet-express-backend](https://github.com/meelinn/staryplanet-express-backend)
 
-run the development server:
+1. clone the project:
+```bash
+git clone https://github.com/meelinn/staryplanet-next-frontend
+```
+
+2. Navigate to the project directory:
+```bash
+cd staryplanet-next-frontend
+```
+
+3. Install the required dependencies:
+```bash
+npm install
+```
+
+4. run the development server:
 
 ```bash
 npm run dev
@@ -65,4 +80,4 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3005/pet-info/api](http://localhost:3005/pet-info/api).
+[API routes](https://nextjs.org/docs/api-routes/introduction) Please refer to the [APIdocument](https://github.com/meelinn/staryplanet-express-backend/tree/main?tab=readme-ov-file#api-%E8%B7%AF%E7%94%B1) to obtain relevant information about API routes.
