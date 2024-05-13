@@ -1,7 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from 'firebase/app'
 import { getAnalytics } from 'firebase/analytics'
-import {getAuth, GoogleAuthProvider} from 'firebase/auth'
+import { getAuth, GoogleAuthProvider } from 'firebase/auth'
 import { FacebookAuthProvider, signInWithPopup } from 'firebase/auth'
 import { signOut } from 'firebase/auth'
 // TODO: Add SDKs for Firebase products that you want to use
@@ -10,7 +10,7 @@ import { signOut } from 'firebase/auth'
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: 'AIzaSyByus_EbQXb8o2RN4DElmmQldV5bk7L72A',
+  apiKey: 'JJA_DK145364mkas45.gflh',
   authDomain: 'react-project-3a85c.firebaseapp.com',
   projectId: 'react-project-3a85c',
   storageBucket: 'react-project-3a85c.appspot.com',
@@ -21,9 +21,6 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig)
-
-
-
 
 export const Googlelogout = async () => {
   swal({
@@ -58,16 +55,15 @@ export const Googlelogout = async () => {
     } else {
     }
   })
-  
 }
 
-export const auth = getAuth(app);
+export const auth = getAuth(app)
 
-export const provide = new GoogleAuthProvider();
+export const provide = new GoogleAuthProvider()
 
 export const fbAuthProvider = new FacebookAuthProvider()
 
 export const FacebookAuth = async () => {
-  const fbAuth = signInWithPopup(auth, fbAuthProvider);
-  return fbAuth;
+  const fbAuth = signInWithPopup(auth, fbAuthProvider)
+  return fbAuth
 }
