@@ -50,7 +50,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ### 飼養知識 - 靜態頁面
 ![飼養知識 - 靜態頁面](https://i.ibb.co/7WswThh/screencapture-localhost-3000-concept-care-info-2024-05-10-14-59-50.png)
 
-
+### DEMO展示影片
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=kjKh8RePQZk)
 
 ## 安裝指南
 
