@@ -51,7 +51,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ![飼養知識 - 靜態頁面](https://i.ibb.co/7WswThh/screencapture-localhost-3000-concept-care-info-2024-05-10-14-59-50.png)
 
 ### DEMO展示影片
-[![毛毛星球 - 個人功能DEMO展示](https://i.ibb.co/44mCF4f/demo.png)](https://www.youtube.com/watch?v=kjKh8RePQZk)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kjKh8RePQZk?si=TZmISAQujJUdh1K6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## 安裝指南
