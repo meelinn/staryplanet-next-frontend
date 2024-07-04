@@ -14,12 +14,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## 使用技術
 
-- **前端框架**：
+- **前端技術**：
   - [Next.js](https://nextjs.org/)
   - [Bootstrap](https://getbootstrap.com/) 
-  
-- **前端技術**：
-  - [AJAX](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX)
+  - [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/)
   - [SCSS](https://sass-lang.com/)
   - [CSS Modules](https://github.com/css-modules/css-modules)
 
