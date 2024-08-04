@@ -76,6 +76,7 @@ npm install
 ```
 
 4. Set up the database:
+
 4.1 Create the database:
 ```sql
 CREATE DATABASE team3;
