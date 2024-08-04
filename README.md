@@ -76,15 +76,14 @@ npm install
 ```
 
 4. Set up the database:
-    ```bash
-   4.1 Create the database:
-     CREATE DATABASE team3;
-    ```
-
-    ```bash
-      4.2 Import the SQL file:
-      mysql -u username -p team3 < team3.sql
-    ```
+4.1 Create the database:
+```sql
+CREATE DATABASE team3;
+``` 
+4.2 Import the SQL file:
+```bash
+mysql -u username -p team3 < team3.sql
+```
 
 5. run the development server:
 
