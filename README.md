@@ -56,9 +56,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 請確保搭配後端專案一起使用：[https://github.com/meelinn/staryplanet-express-backend](https://github.com/meelinn/staryplanet-express-backend)
 
-MySQL資料庫：[https://drive.google.com/file/d/1FyDScZLCWKNXS0Lh77kQSP_kaS7YMAXK/view?usp=drive_link](https://drive.google.com/file/d/1FyDScZLCWKNXS0Lh77kQSP_kaS7YMAXK/view?usp=drive_link)
-
-網站圖片資源： [https://drive.google.com/drive/folders/1Iiv_2shRV0lsXpR8wGTyWkOdz5i85d5q](https://drive.google.com/drive/folders/1Iiv_2shRV0lsXpR8wGTyWkOdz5i85d5q)
 
 1. clone the project:
 ```bash
